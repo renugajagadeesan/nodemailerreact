@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            max-width: 500px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background-color: #ff0000;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .content {
+            margin: 20px 0;
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        .button-container a{
+            padding: 10px 20px;
+            background-color: black;
+            border: none;
+            border-radius: 5px;
+            display: inline-block;
+             text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+
+
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #888;
+            margin-top: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 15px;
+            }
+
+            .header {
+                font-size: 20px;
+                padding: 10px;
+            }
+
+            .content {
+                font-size: 14px;
+            }
+
+            .button-container a {
+                padding: 8px 15px;
+                font-size: 14px;
+            }
+
+            .footer {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                font-size: 18px;
+                padding: 8px;
+            }
+
+            .content {
+                font-size: 12px;
+                margin: 15px 0;
+            }
+
+            .button-container a {
+                padding: 8px 10px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">Welcome to Our App!</div>
+        <div class="content">
+            <p>Dear User,</p>
+            <p>Thank you for joining us. We're excited to have you on board!</p>
+            <p>If you have any questions, feel free to reply to this email.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8BSA4a931ijHL6EeUfbHsNLYkvas_oOLPbg&s"
+                alt="Example Image">
+        </div>
+        <div class="button-container">
+                <a href="https://www.figma.com/design/PeKgAD4Q94p1E7loIN60EJ/Banner?node-id=4-2&node-type=frame&t=WcHAEXF2GqZW8T9F-0"
+                    target="_blank">Click Me</a>
+        </div>
+        <div class="footer">© 2024 Your Company. All rights reserved.</div>
+    </div>
+</body>
+
+</html>
